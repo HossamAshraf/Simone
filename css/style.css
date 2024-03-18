@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#home {
+  background-image: url(../Images/intro-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.navbar {
+  background-color: #0000009d;
+}
+
+html {
+  --maincolor: #20c997;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.712);
+  width: 100%;
+  height: 100%;
+}
+
+#Home button {
+  background-color: transparent;
+  border: 2px solid var(--maincolor) !important;
+  color: var(--maincolor) !important;
+  transition: all 0.5s;
+}
+
+#About button {
+  background-color: transparent;
+  border: 2px solid var(--maincolor) !important;
+  color: white !important;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: var(--maincolor) !important;
+}
+
+#Home button:hover {
+  background-color: var(--maincolor) !important;
+  color: white !important;
+}
+
+.big {
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+#About h2 {
+  position: relative;
+}
+
+.mail {
+  color: var(--maincolor);
+}
+
+#About h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--maincolor);
+  width: 80px;
+  height: 3px;
+  top: 120%;
+  left: 35%;
+}
+
+#About .btn {
+  background-color: var(--maincolor);
+  border: 2px solid var(--maincolor) !important;
+  color: white;
+  transition: all 0.5s;
+}
+
+#About .btn:hover {
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+
+.fouritems .item h3 {
+  font-size: 40px;
+}
+
+.big {
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+#Services h2 {
+  position: relative;
+}
+
+#Services h2 {
+  position: relative;
+}
+
+#Services h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--maincolor);
+  width: 80px;
+  height: 3px;
+  top: 120%;
+  left: 25%;
+}
+#services {
+  background-color: #f8f9fa !important;
+}
+#services i {
+  color: var(--maincolor);
+  font-size: 30px;
+}
+
+#Resume h2 {
+  position: relative;
+}
+
+#Resume h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--maincolor);
+  width: 80px;
+  height: 3px;
+  top: 120%;
+  left: 25%;
+}
+
+#Resume h6 {
+  color: #dc3545 !important;
+}
+.progress-bar {
+  background-color: var(--maincolor) !important;
+}
+#Resume .item button {
+  background-color: var(--maincolor);
+}
+
+#Portfolio {
+  background-color: #f8f9fa !important;
+}
+
+#Portfolio h2 {
+  position: relative;
+}
+
+#Portfolio h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--maincolor);
+  width: 80px;
+  height: 3px;
+  top: 120%;
+  left: 25%;
+}
+#Portfolio a {
+  color: black;
+}
+
+#Portfolio .active {
+  color: var(--maincolor);
+}
+
+#Portfolio .item {
+  width: 30%;
+  margin: auto;
+}
+#Portfolio .item img {
+  width: 100%;
+
+  margin: 20px;
+}
+
+.test10 {
+  background-color: #f8f9fa !important;
+}
+.test11 {
+  border-radius: 50%;
+}
+#Client h2 {
+  position: relative;
+}
+
+#Client h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--maincolor);
+  width: 80px;
+  height: 3px;
+  top: 120%;
+  left: 25%;
+}
+
+#Contact h2 {
+  position: relative;
+}
+
+#Contact h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--maincolor);
+  width: 80px;
+  height: 3px;
+  top: 120%;
+  left: 25%;
+}
+
+#Contact .btn {
+  background-color: var(--maincolor);
+  border: 2px solid var(--maincolor) !important;
+  color: white;
+  transition: all 0.5s;
+}
+#Contact {
+  background-color: #f8f9fa !important;
+}
+
+#Contact .btn:hover {
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+#Contact i {
+  color: var(--maincolor);
+}
+
+#footer span {
+  color: var(--maincolor);
+}
